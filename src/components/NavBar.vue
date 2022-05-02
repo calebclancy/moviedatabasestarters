@@ -8,17 +8,15 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+         <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+
+          <router-link to = "/movies" class = "nav-link">Movies</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <!--<a class="nav-link" href="#">Features</a> -->
+          <router-link to = "/" class = "nav-link">Home</router-link>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled">Disabled</a>
-        </li>
+        
       </ul>
     </div>
   </div>
